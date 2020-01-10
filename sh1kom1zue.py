@@ -159,11 +159,3 @@ def Deploy():
 # When command line option -d is used:
 if deploy:
     Deploy()
-
-
-
-#def main():
-    
-
-# if __name__ == "__main__":
-#     main()
