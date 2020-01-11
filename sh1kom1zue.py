@@ -13,6 +13,7 @@ from PIL import Image
 from bitstring import BitArray
 from bitstring import ConstBitStream
 
+
 # Create command line options (-c,-d,-i,-p,-o) with argparse module:
 parser = argparse.ArgumentParser()
 parser.add_argument("-c", "--conceal", action="store_true", help="conceal ELF file in image; use with -i, -p, -o.")
@@ -25,13 +26,9 @@ args = parser.parse_args()
 
 conceal = args.conceal
 deploy = args.deploy
-image_input = args.image
-payload = args.payload
-output_file = args.output
-
-file_in = payload
-image_in = image_input
-output_name = output_file
+image_in = args.image
+file_in = args.payload
+output_name = args.output
     
 
 # Conceal ELF file inside an image:
@@ -100,7 +97,9 @@ def Hide():
 if conceal:
     Hide()
 
+    
 #=========================================================
+
 
 # Extract ELF file and execute: 
 def Deploy():
@@ -159,3 +158,4 @@ def Deploy():
 # When command line option -d is used:
 if deploy:
     Deploy()
+    
