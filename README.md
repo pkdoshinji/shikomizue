@@ -1,2 +1,2 @@
 # sh1kom1zue
-Steganographic malware
+Steganographic binaries
