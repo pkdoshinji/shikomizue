@@ -16,4 +16,4 @@ For the -g switch to work, histogram.py must be installed in the same directory
 
 
 Finally, the executable payload can be extracted and executed in memory with the -d switch:
->/shikomizue.py -d -i <steg_image.png> -s <random seed>
+>./shikomizue.py -d -i <steg_image.png> -s <random seed>
