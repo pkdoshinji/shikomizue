@@ -5,11 +5,11 @@ shikomizue: a command-line stegware tool for antivirus evasion. shikomizue allow
 
 To create a steganographic image file, run the main script with the -c switch and appropriate options:
 
->./shikomizue.py -c -i <input_image.png> -s <random seed> -o <output_image.png> -p <executable payload>
+>./shikomizue.py -c -i <input_image.png> -s <random seed> -o <output_image.png> -p <executable_payload>
 
 
 The -g switch may be used to display superimposed RGB histograms of the input and output images:
->./shikomizue.py -c -i <input_image.png> -s <random seed> -o <output_image.png> -p <executable payload> -g
+>./shikomizue.py -c -i <input_image.png> -s <random seed> -o <output_image.png> -p <executable_payload> -g
 
 For the -g switch to work, histogram.py must be installed in the same directory
   
