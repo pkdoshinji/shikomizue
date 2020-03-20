@@ -16,8 +16,8 @@ So, for example:
 The -g switch may be used to display superimposed RGB histograms of the input and output images:
 >./shikomizue.py -c -i <input_image.png> -s <random_seed> -o <output_image.png> -p <executable_payload> -g
 
-<img src="histogram1.png" alt="example" width="500" height="400" />
-<img src="histogram2.png" alt="example" width="500" height="400" />
+<img src="histo1.png" alt="example" width="500" height="400" />
+<img src="histo2.png" alt="example" width="500" height="400" />
 For the -g switch to work, histogram.py must be installed in the same directory
   
 
