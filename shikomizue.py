@@ -170,7 +170,7 @@ def deployer(image, seed):
 
 
 def main():
-    #Command line options (-c,-d,-i,-p,-o,-s) with argparse module:
+    #Command line options (-c,-d,-i,-p,-o,-s,-g) with argparse module:
     parser = argparse.ArgumentParser()
 
     group = parser.add_mutually_exclusive_group()
