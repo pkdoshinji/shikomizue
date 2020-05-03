@@ -39,7 +39,7 @@ def image_bits(image):
     return x_size, y_size
 
 
-#Balance the proportion of 1s and 0s in the payload
+#Balance the proportion of 1s and 0s in the payload (to prevent a skewed RGB histogram)
 def smoothing(bitstream, total_size):
     zeros = bitstream.count('0')
     ones = bitstream.count('1')
